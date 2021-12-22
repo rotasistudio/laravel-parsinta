@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+@extends('layouts/app', ['tittle'=>'Home Page'])
 
-</head>
-<body>
-    <ul class="navbar">
-        <li><a href="/">Home</a></li>
-        <li><a href="/contact">Contak</a></li>
-        <li><a href="/post">Post</a></li>
-    </ul>
-</body>
-</html>
+@section('content')
+<h1>Ini halaman Home</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit delectus sint iure, temporibus atque aut, necessitatibus ea quibusdam ullam iste quos tempora cum quaerat autem commodi. Quia aut architecto neque ducimus? Quisquam, eum, aliquid sunt excepturi veritatis iure laborum, fuga unde maxime deserunt nemo. Natus at quo, sapiente deleniti a sint quod quia libero id officia possimus doloremque repellendus nemo iure minima. Qui explicabo nulla, dolorem incidunt sequi delectus eum, officia ipsam, dicta necessitatibus cupiditate atque consequuntur. Quod ad id, ab ea autem et libero perspiciatis earum corporis voluptatum deleniti architecto dolorum repudiandae in nemo beatae ipsum alias laboriosam magni.</p>
+@endsection

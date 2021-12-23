@@ -17,6 +17,5 @@ Route::get('/', function () {
     return view('home');
 });
 Route::view('contact', 'contact');
-Route::view('blog', 'blog');
 Route::view('profile', 'profile');
 Route::view('about', 'about');

@@ -23,3 +23,10 @@ a:hover {
     padding: 10px;
     display: inline-block;
 }
+
+.alert {
+    background-color: indigo;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
